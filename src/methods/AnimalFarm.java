@@ -16,6 +16,11 @@ public class AnimalFarm {
 		/*
 		 * 1. Ask the user which animal they want, then play the sound of that animal.
 		 */
+		String answer = 
+				
+		 JOptionPane.showInputDialog("Enter the name of an animal");
+		
+		
 		
 		/* 2. Make it so that the user can keep entering new animals. */
 	}
