@@ -17,9 +17,12 @@ public class ThatWasEasy extends MouseAdapter {
 
 	public void mouseClicked(MouseEvent arg0) {
 		/* Use the speak method to make the button work. */
-		
-	}
-
+		void speak() {
+			
+		}
+	
+	
+	
 	private void speak(String words) {
 		try {
 			Runtime.getRuntime().exec("say " + words).waitFor();
@@ -51,8 +54,10 @@ public class ThatWasEasy extends MouseAdapter {
 		quizWindow.add(easyButtonImage);
 		quizWindow.pack();
 		
-	}
+	
 
 }
+}
+
 
 
